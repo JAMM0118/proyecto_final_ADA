@@ -38,7 +38,7 @@ const List<String> lista = <String>[
   '25X25','26X26','27X27','28X28','29X29','30X30','31X31',
   '32X32','33X33','34X34','35X35','36X36','37X37','38X38',
   '39X39','40X40','41X41','42X42','43X43','44X44','45X45',
-  '46X46','47X47','48X48',
+  '46X46','47X47','48X48','49X49','50X50'
 ];
 
 const List<String> pruebas = <String>['Matriz 1','Matriz 2','Matriz 3','Matriz 4','Matriz 5',];

@@ -151,8 +151,9 @@ List<List<dynamic>> matrizAleatoria(int tam){
     "España", "Estonia", "Armenia", "Filipinas", "Finlandia", "Francia",
     "Ghana", "Grecia", "Granada", "Guatemala", "Honduras", "India",
     "Indonesia", "Irán", "Irak", "Uzbekistán", "Vanuatu", "Venezuela",
-    "Vietnam", "Yemen", "Yibuti", "Zambia", "Zimbabue"
-  ];
+    "Vietnam", "Yemen", "Yibuti", "Zambia", "Zimbabue",
+    "Noruega", "Paraguay",];
+
 
   int n = tam;
   
@@ -175,9 +176,7 @@ List<List<dynamic>> matrizAleatoria(int tam){
       }
     }
   }
-  for(var i in matriz){
-    print(i);
-  }
+  
   return matriz;
 }
 List<List<dynamic>> algoritmoParaDeterminarVillas(int n, List<List<dynamic>> matriz) {
