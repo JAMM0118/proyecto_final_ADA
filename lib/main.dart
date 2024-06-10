@@ -203,12 +203,12 @@ class _MyHomePageState extends State<MyHomePage> {
                     onPressed: () => matriz == "Matriz 1" 
                     ? sizePruebas(7,matrizPrueba1)
                     : matriz == "Matriz 2" 
-                    ? sizePruebas(7, matrizPrueba2)
+                    ? sizePruebas(5, matrizPrueba2)
                     : matriz == "Matriz 3" 
-                    ? sizePruebas(10, matrizPrueba3)
+                    ? sizePruebas(6, matrizPrueba3)
                     : matriz == "Matriz 4" 
-                    ? sizePruebas(5, matrizPrueba4)
-                    : sizePruebas(8, matrizPrueba5),
+                    ? sizePruebas(10, matrizPrueba4)
+                    : sizePruebas(5, matrizPrueba5),
                     style: ButtonStyle(
                         backgroundColor: MaterialStateProperty.all(
                             Theme.of(context).colorScheme.primary),

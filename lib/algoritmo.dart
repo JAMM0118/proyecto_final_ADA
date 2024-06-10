@@ -198,16 +198,23 @@ List<List<dynamic>> matrizPrueba1 = [
     ["Japon", 1, 1, 1, 0, 1, 0]
   ];
   
-  List<List<dynamic>> matrizPrueba2 = [  
-    ["#","Argentina", "China","Colombia","Australia","Jamaica","Japón"],
-    ["Argentina",0,0,0,0,0,1],
-    ["China", 0,0,1,0,0,0],
-    ["Colombia",0 ,1,0,1,0,1],
-    ["Australia",0 ,0,1,0,1,0],
-    ["Jamaica",0 ,0,0,1,0,0],
-    ["Japón", 1 ,0 ,1,0,0,0],];
+  
+List<List<dynamic>> matrizPrueba2 = [
+  ["#", "Argentina", "China", "Colombia", "Australia"],
+  ["Argentina", 0, 1, 1, 0],
+  ["China", 1, 0, 1, 0],
+  ["Colombia", 1, 1, 0, 0],
+  ["Australia", 0, 0, 0, 0],];
 
-  List<List<dynamic>> matrizPrueba3 = [
+  List<List<dynamic>> matrizPrueba3 = [  
+    ["#","Argentina", "China","Colombia","Australia","Jamaica"],
+    ["Argentina",0,0,0,0,0],
+    ["China", 0,0,1,0,0],
+    ["Colombia",0 ,1,0,1,0],
+    ["Australia",0 ,0,1,0,1],
+    ["Jamaica",0 ,0,0,1,0],];
+
+  List<List<dynamic>> matrizPrueba4 = [
       ["#", "Argentina", "China", "Colombia", "Australia", "Jamaica", "Japón", "Austria","Irlanda", "Islandia"],
       ["Argentina", 0, 0, 1, 1, 0, 0, 0, 0, 0],
       ["China", 0, 0, 1, 0, 0, 0, 1, 1, 1],
@@ -219,20 +226,12 @@ List<List<dynamic>> matrizPrueba1 = [
       ["Irlanda", 0, 1, 0, 0, 0, 1, 0, 0, 1],
       ["Islandia", 0, 1, 0, 0, 1, 1, 1, 1, 0],];
 
-List<List<dynamic>> matrizPrueba4 = [
-  ["#", "Argentina", "China", "Colombia", "Australia"],
-  ["Argentina", 0, 1, 1, 0],
-  ["China", 1, 0, 1, 0],
-  ["Colombia", 1, 1, 0, 0],
-  ["Australia", 0, 0, 0, 0],];
 
 List<List<dynamic>> matrizPrueba5 = [
-  ["#", "Argentina", "China", "Colombia", "Australia", "Jamaica", "Japón", "Austria"],
-  ["Argentina", 0, 0, 1, 1, 1, 0, 0],
-  ["China", 0, 0, 1, 0, 1, 0, 1],
-  ["Colombia", 1, 1, 0, 0, 1, 0, 1],
-  ["Australia", 1, 0, 0, 0, 1, 0, 1],
-  ["Jamaica", 1, 1, 1, 1, 0, 1, 0],
-  ["Japón", 0, 0, 0, 0, 1, 0, 1],
-  ["Austria", 0, 1, 1, 1, 0, 1, 0],
+  ["#", "Cuba", "China", "Panama", "Japón"],
+  ["Cuba", 0, 1, 1, 1],
+  ["China", 1, 0, 1, 0],
+  ["Panama", 1, 1, 0, 0],
+  ["Japón", 1, 0, 0, 0],
+ 
 ];
