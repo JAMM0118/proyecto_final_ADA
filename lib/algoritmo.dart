@@ -8,7 +8,7 @@ List<String> paisesMatriz(List<List<dynamic>> matriz, int n) {
   return lista;
 }
 
-bool isInLista(List<String> lista, String pais) {
+bool isNotInLista(List<String> lista, String pais) {
   bool bandera = false;
   for (String villa in lista) {
     if (!villa.contains(pais)) {
@@ -33,19 +33,18 @@ List<String> listaParaVillas(List<String> lista, int n, List<List<dynamic>> matr
 
   for (int i = 0; i < lista.length; i++) {
     if (listaFinal.isNotEmpty) {
-      bandera = isInLista(listaFinal, lista[i].split(" ")[0]);
+      bandera = isNotInLista(listaFinal, lista[i].split(" ")[0]);
     }
     if (bandera == true || listaFinal.isEmpty) {
       List<String> division = lista[i].split(" ");
-      division.removeAt(0);
       for (int j = 0; j < n - 1; j++) {
         if (!division.contains(paises[j]) &&
-            paises[j] != lista[i].split(" ")[0] &&
-            isInLista(listaFinal, paises[j]) == true) {
+            isNotInLista(listaFinal, paises[j]) == true) {
           if (mensaje.isEmpty) {
             mensaje += " ${paises[j]}";
           } else {
             List<String> aux = mensaje.split(" ");
+            aux.removeAt(0);
             for (int k = 0; k < aux.length; k++) {
               for (int l = 0; l < lista.length; l++) {
                 if (aux[k] == lista[l].split(" ")[0]) {
